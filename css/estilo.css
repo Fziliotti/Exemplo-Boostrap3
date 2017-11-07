@@ -1,0 +1,76 @@
+/*
+HEADER
+*/
+.header-site{
+	/*efeito paralas, img tem que ficar parada e cobrir toda a tela*/
+	background-image: url(../img/01.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	/*img atinge a extremidade*/
+	background-size:cover;
+	/*por padrao o bg attach é scroll, ou seja, acompanharia o scroll*/
+	background-attachment:fixed;
+	color: white;
+	
+	padding-bottom: 350px; 	 
+}
+
+
+
+/*
+Conteudo do site
+*/
+.content-site{
+		padding-top: 50px;
+		padding-bottom: 50px;
+}
+
+
+/*
+SERVIÇO
+*/
+.service-content{
+	/*efeito paralas, img tem que ficar parada e cobrir toda a tela*/
+	background-image: url(../img/03.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	/*img atinge a extremidade*/
+	background-size:cover;
+	/*por padrao o bg attach é scroll, ou seja, acompanharia o scroll*/
+	background-attachment:fixed;
+	color: white;
+	padding-top: 200px;
+	padding-bottom: 200px; 	 
+	
+}
+
+/*
+FOOTER
+*/
+footer{
+background-color: #000003;
+color: 	white;
+padding-bottom: 50px;
+padding-top:50px;
+}
+
+
+
+/*
+AJUSTES
+*/
+
+.menutopo{
+	color: white;
+	background:#333333;
+	opacity:0.8; 
+	
+}
+
+.navbar-header a{
+	color: white;
+}
+
+#text-intro{
+	padding-top: 300px;
+}
